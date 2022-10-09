@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@700&family=Edu+QLD+Beginner&family=Montserrat:wght@100;300;400;500;700;800;900&family=Poppins:wght@400;700&family=Roboto&family=Ubuntu:wght@400;700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #03203C;
+    gap: 20px;
+}
+
+#heading{
+    font-size: 4rem;
+    color: #fff;
+}
+
+.container{
+    min-width: 40%;
+    min-height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5DA3FA;
+    gap: 20px;
+    border-radius: 10px;
+    
+}
+
+#displayTimer{
+    border: 5px solid #03203C;
+    padding: 50px;
+    border-radius: 20px;
+    font-size: 2.8rem;
+
+}
+
+#buttons{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+#buttons button{
+    width: 25%;
+    height: 40px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+#start{
+    background-color: #02B290;
+    color: #fff;
+}
+#pause{
+    background-color: #E21717;
+    color: #fff;
+}
+#reset{
+    background-color: #03203C;
+    color: #fff;
+}
